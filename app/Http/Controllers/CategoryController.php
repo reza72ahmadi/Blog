@@ -11,7 +11,8 @@ class CategoryController extends Controller
      */
     public function index()
     {
-        return view('admin.home');
+        abort(403,'this is a problem');
+        // return redirect()->away('https://www.toplearn.com');
     }
 
     /**
